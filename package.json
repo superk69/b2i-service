@@ -1,0 +1,40 @@
+{
+  "name": "b2i-service",
+  "version": "1.0.0",
+  "description": "install",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "module-alias": "^2.0.6",
+    "morgan": "^1.9.0",
+    "mongoose": "^5.1.1",
+    "passport-jwt": "^4.0.0",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superk69/b2i-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superk69/b2i-service/issues"
+  },
+  "homepage": "https://github.com/superk69/b2i-service#readme",
+  "_moduleAliases": {
+      "@root": ".",
+      "@B2iManager": "./ServiceAPI",
+      "@B2iAPI": "./ServiceAPI/config/app.js",
+      "@B2iModels": "./ServiceAPI/app/models",
+      "@config": "./ServiceAPI/config/index.js"
+  }
+}
